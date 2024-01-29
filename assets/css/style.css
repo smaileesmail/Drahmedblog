@@ -31,10 +31,10 @@ h5,
 h6 {
   font-family: 'Cairo', sans-serif;
 }
-
-/*--------------------------------------------------------------
+--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -803,6 +803,7 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -811,13 +812,14 @@ section {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   text-align: center;
-  min-height: 320px;
+  min-height: auto;
+  
 }
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .testimonials .testimonial-item h3 {
@@ -829,6 +831,7 @@ section {
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
+  font-family:'Cairo', sans-serif;
   color: #999;
   margin: 0;
 }
@@ -850,6 +853,13 @@ section {
   right: -5px;
   position: relative;
   top: 10px;
+}
+
+.testimonials h1{
+  color: #0e2442;
+  text-align: center;
+  font-weight: 600;
+
 }
 
 .testimonials .testimonial-item p {
