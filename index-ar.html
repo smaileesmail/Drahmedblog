@@ -59,7 +59,7 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-book-content"></i> <span> مقالات</span></a></li>
+          <li><a href="index News-Ar.html" class="nav-link scrollto active"><i class="bx bx-book-content"></i> <span> مقالات</span></a></li>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span> الرئيسية</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>حول</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>السيرة الذاتية</span></a></li>
@@ -108,7 +108,7 @@
       <div class="swiper-wrapper">
         
         <div class="swiper-slide">
-        <div class="testimonial-item" data-aos="fade-up">
+          <div class="testimonial-item" data-aos="fade-up" onclick="redirectToPage('Article-Ar.html')">
             <p>
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               الفائز بجائزة صاحب السمو حاكم عجمان في يوم العلم لولاية عجمان 23 مارس 2010.
@@ -121,7 +121,7 @@
         </div><!-- End testimonial item -->
 
         <div class="swiper-slide">
-          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial-item" data-aos="fade-up" onclick="redirectToPage('Article-Ar.html')">
             <p>
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               الفائز بجائزة صاحب السمو حاكم عجمان في يوم العلم لولاية عجمان 23 مارس 2010.
@@ -135,7 +135,7 @@
         </div><!-- End testimonial item -->
 
         <div class="swiper-slide">
-          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200" onclick="redirectToPage('Article-Ar.html')">
             <p>
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               الفائز بجائزة صاحب السمو حاكم عجمان في يوم العلم لولاية عجمان 23 مارس 2010. 
@@ -804,6 +804,11 @@
     function langswitch(){
       window.location.replace("index.html");
     }
+    </script>
+    <script>
+      function redirectToPage(url) {
+        window.location.href = url;
+      }
     </script>
 </body>
 
