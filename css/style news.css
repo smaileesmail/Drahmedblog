@@ -5,6 +5,12 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ /*   # General
+--------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700&display=swap');
+h1, h2, h3, h4, h5, h6 p a{
+    font-family: 'Cairo', sans-serif;
+}
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -32,7 +38,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Montserrat", sans-serif;
+  --font-family-sans-serif: 'Cairo', sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -43,19 +49,20 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Cairo', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  font-family: 'Cairo', sans-serif;
   display: block;
 }
 
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -155,6 +162,7 @@ a {
   color: #FFCC00;
   text-decoration: none;
   background-color: transparent;
+  font-family: 'Cairo', sans-serif;
 }
 
 a:hover {
