@@ -37,6 +37,34 @@
 
 <body>
 
+ <!-- Announcement Modal -->
+ <div id="announcement-modal">
+  <div class="modal-content">
+      <h2>Announcement</h2>
+      <img src="/assets/img/Announcement.jpg" alt="Banner" style="width: 100%; height: auto;">
+      <button class="close-btn" id="close-btn">Close</button>
+  </div>
+</div>
+
+<!-- Your website banner -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      let modal = document.getElementById("announcement-modal");
+      let closeBtn = document.getElementById("close-btn");
+      let body = document.body;
+
+      // Show modal when page loads
+      modal.style.display = "flex";
+      body.classList.add("modal-open"); // Disable scrolling
+
+      // Close modal when button is clicked
+      closeBtn.addEventListener("click", function () {
+          modal.style.display = "none";
+          body.classList.remove("modal-open"); // Enable scrolling again
+      });
+  });
+</script>
+
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
@@ -158,9 +186,6 @@
 
 
 
-
-
-
         <!-- Other Branch Logo Link Section -->
   <div class="row text-center">
       <article class="col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-article">                            
@@ -168,6 +193,18 @@
           <h3 class="tm-color-primary tm-article-title-1">Samharam Private School</h3>
           
       </article>
+      <article class="col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-article">                            
+        <a href="https://www.Samharam.com/"><img src="./assets/img/eng-en.jpg" alt="Samharam" width="100px" height="100px"></a>
+        <h3 class="tm-color-primary tm-article-title-1">Enlightenment</h3>
+        
+    </article>
+
+  </article>
+  <article class="col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-article">                            
+    <a href="https://www.Samharam.com/"><img src="./assets/img/eng1.jpg" alt="Samharam" width="100px" height="100px"></a>
+    <h3 class="tm-color-primary tm-article-title-1">Enlightenment</h3>
+    
+</article>
       <article class="col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-article">                            
         <a href=""><img src="./assets/img/Alnajah.png" alt="Samharam" width="200px" height="100px" ></a>
           <h3 class="tm-color-primary tm-article-title-1">Al Najah Academy</h3>
